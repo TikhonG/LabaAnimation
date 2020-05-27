@@ -43,8 +43,7 @@ end;
 procedure TMyForm.FormPaint(Sender: TObject);
 begin
   Man.Draw;
-  Man.BeginSun;
-  Man.SandboxAndTrek;
+  Man.Background;
 end;
 
 Initialization
